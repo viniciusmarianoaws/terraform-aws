@@ -1,2 +1,2 @@
 environment = "dev"
-aws_region  = "eu-central-1"
+aws_region  = "us-east-1"

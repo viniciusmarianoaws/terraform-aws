@@ -16,7 +16,7 @@ database_config = {
 }
 
 tags = {
-  "Project"     = "Curso AWS com Terraform"
+  "Project"     = "AWS com Terraform"
   "CreatedAt"   = "2023-10-24"
   "Environment" = "prod"
 }

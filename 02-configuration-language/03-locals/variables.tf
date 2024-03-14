@@ -1,6 +1,6 @@
 variable "environment" {
   type        = string
-  description = "The environment to deploy the infra to"
+  description = "O ambiente para implantar infra "
   default     = "dev"
 
   validation {
@@ -23,7 +23,7 @@ variable "aws_region" {
 variable "aws_profile" {
   type        = string
   description = "The AWS profile to use to authenticate with Terraform. Use 'default' in case you have only one account configured"
-  default     = "tf_macm1_ggasparoto"
+  default     = "tf_xxxxxx"
 }
 
 variable "tags" {

@@ -2,7 +2,7 @@
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "tf_xxxxxxx"
+  profile = "xxxxxxx"
 
   default_tags {
     tags = {

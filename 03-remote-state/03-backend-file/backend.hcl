@@ -1,0 +1,5 @@
+    bucket         = "tfstate-2023-552925900210"
+    key            = "dev/03-backend-file/terraform.tfstate"
+    region         = "us-east-1"
+    profile        = "vterraform"
+    dynamodb_table = "tflock-tfstate-2023-552925900210"

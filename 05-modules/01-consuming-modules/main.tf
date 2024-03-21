@@ -1,5 +1,3 @@
-# https://developer.hashicorp.com/terraform/cli/commands
-
 # https://developer.hashicorp.com/terraform/language/modules
 
 provider "aws" {
@@ -9,8 +7,8 @@ provider "aws" {
   default_tags {
     tags = {
       "Project"    = "AWS com Terraform"
-      "Module"     = "CLI"
-      "Component"  = "Outputs"
+      "Module"     = "Modules"
+      "Component"  = "01-consuming-modules"
       "CreatedAt"  = "2024-03-19"
       "ManagedBy"  = "Outputs"
       "Owner"      = "Vinicius Mariano"

@@ -1,5 +1,3 @@
-# https://developer.hashicorp.com/terraform/cli/commands
-
 # https://developer.hashicorp.com/terraform/language/modules
 
 provider "aws" {
@@ -9,7 +7,7 @@ provider "aws" {
   default_tags {
     tags = {
       "Project"    = "AWS com Terraform"
-      "Module"     = "CLI"
+      "Module"     = "Modules"
       "Component"  = "Outputs"
       "CreatedAt"  = "2024-03-19"
       "ManagedBy"  = "Outputs"
@@ -20,7 +18,5 @@ provider "aws" {
 }
 
 resource "random_pet" "this" {
-  count = 3
-
-  length = 5
+  length = 3
 }

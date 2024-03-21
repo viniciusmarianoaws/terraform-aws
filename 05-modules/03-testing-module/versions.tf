@@ -4,7 +4,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.22"
+      version = "~> 5.15"
     }
     random = {
       source  = "hashicorp/random"
@@ -12,9 +12,9 @@ terraform {
     }
   }
 
-  backend "s3" {
+    backend "s3" {
     bucket         = "tfstate-2023-552925900210"
-    key            = "dev/04-terraform-cli/terraform.tfstate"
+    key            = "dev/05-modules/03-testing-modules/terraform.tfstate"
     region         = "us-east-1"
     profile        = "vterraform"
     dynamodb_table = "tflock-tfstate-2023-552925900210"

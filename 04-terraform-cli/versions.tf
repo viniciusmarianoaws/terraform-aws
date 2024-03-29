@@ -13,10 +13,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "tfstate-2023-552925900210"
+    bucket         = "xxxxxxxxxxxxxxxxxxxxxxxxxx"
     key            = "dev/04-terraform-cli/terraform.tfstate"
     region         = "us-east-1"
-    profile        = "vterraform"
-    dynamodb_table = "tflock-tfstate-2023-552925900210"
+    profile        = "xxxxxxxxxx"
+    dynamodb_table = "tflock-xxxxxxxxxxxxxxxxxxxxxxxxxx"
   }
 }

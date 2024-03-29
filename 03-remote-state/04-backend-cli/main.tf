@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "us-east-1"
-  profile = "vterraform"
+  profile = "xxxxxxxxxx"
 
   default_tags {
     tags = {

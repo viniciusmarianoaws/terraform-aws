@@ -2,13 +2,13 @@
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "vterraform"
+  profile = "xxxxxxxxxx"
 
   default_tags {
     tags = {
       "Project"    = "AWS com Terraform"
       "Module"     = "Modules"
-      "Component"  = "Outputs"
+      "Component"  = "01-consuming-modules"
       "CreatedAt"  = "2024-03-19"
       "ManagedBy"  = "Outputs"
       "Owner"      = "Vinicius Mariano"
@@ -18,5 +18,7 @@ provider "aws" {
 }
 
 resource "random_pet" "this" {
-  length = 3
+  count = 3
+
+  length = 5
 }

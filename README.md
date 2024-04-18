@@ -6,7 +6,7 @@ Cloudfront distribution
 Route53 records
 ACM certificate
 
-Criando uma aplicação Serverless
+Aplicação Serverless
 Introdução
 Cognito UI
 Cognito código do Terraform

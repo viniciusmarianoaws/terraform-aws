@@ -1,7 +1,6 @@
 ### Projetos executado Terraform AWS
 
 ### Website estático com S3, Cloudfront e Route53
-- Introdução
 - React.js
 - S3 bucket
 - Cloudfront distribution
@@ -10,9 +9,7 @@
 
 
 ### Aplicação Serverless
-- Introdução
 - Cognito UI
-- Cognito código do Terraform
 - DynamoDB
 - Código Typescript das Lambdas
 - Artefato das Lambdas
@@ -26,7 +23,6 @@
 - Route53
 
 ### Aplicação auto-escalável
-- Introdução
 - VPC
 - Launch template
 - Load balancer
